@@ -1,7 +1,7 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: Hsuan-lin Her
+description: Molecules, Sequences to Diseases
 
-url: http://brianmaierjr.github.com/long-haul
+url: http://algaebrown.github.com/
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -20,9 +20,9 @@ navigation:
    url: /contact
 
 social:
-   github: brianmaierjr
-   twitter: brianmaierjr
-   facebook: brianmaierjr
-   email: brimaidesigns@gmail.com
+   github: algaebrown
+   twitter: hermuba
+   facebook: 
+   email: b101102109@tmu.edu.tw
 
-google_analytics: "UA-58263416-1"
+google_analytics: ""
