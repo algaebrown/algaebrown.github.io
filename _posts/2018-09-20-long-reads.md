@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Why long reads?"
-date:   2018-09-19
+title: "Why long reads?"
+date: 2018-09-19
 ---
 
 1. Now:
