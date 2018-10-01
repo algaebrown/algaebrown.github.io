@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cancer Bioinformatics 1: Cancer Biology**
+title:  "Cancer Bioinformatics 1: Cancer Biology""
 date:   2017-09-19
 ---
 
