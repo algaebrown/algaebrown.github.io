@@ -1,19 +1,64 @@
 ---
 layout: post
-title:  "Image in Post"
-date:   2014-12-11
+title:  "Cancer Bioinformatics 1: Cancer Biology**
+date:   2017-09-19
 ---
 
-<p class="intro"><span class="dropcap">L</span>orem ipsum thor smash liege-bastogne-liege landbouwkrediet ombregt krabbe, rouleur derby is for lovers bonk giro gilbert bidon. Driedaagse de panne-koksijde monte paschi eroica, nevele gimondi berendries off the back cassette tenbosse.</p>
+1. germinal v.s. somatic mutation
+https://www.ncbi.nlm.nih.gov/books/NBK21894/
+germinline mutation is also related to cancer development
 
-Bahamontes lanterne rouge normandie belgium. Fred paris-nice arrivere, for omnium commissaire ronde van vlaanderen horizontally stiff but vertically compliant muur, valkenberg jens paris-roubaix. Meyrueis belleville cavendish bianchi, rochefort echelon in soigneur ten dam omloop het volk, bettini aerts! Tour de mont aigoual cat among the pigeons rekelberg omloop het nieuwsblad paris-nice, dwars door vlaanderen coppi the colnago knockteberg anduze.
+2. ATCG genetic
+https://www.ncbi.nlm.nih.gov/pubmed/21893844
 
-<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt=""> 
+3. in levels
+- DNA: mutation, copy number
+- RNA edition, alternative splicing
+- protein: alternative v.s. protein
+- signal transduction
 
-Kaperij lanterne rouge musette rund um koln bruges thor smash, geraardsbergen riis petacchi molteni pedaling squares. Virenque vande velde, valkenberg gutter pantani parcours gaul domestique, tilford campagnolo around madone. Bruyneel criterium ritte, gorgeous george the trousselier feed zone bruges nokere koerse, parcours gilbert garin? Anquetil valkenberg bettini cat among the pigeons.
+4. neoplasia = uncontrolled growth
+5. driver v.s. passenger
+https://www.ncbi.nlm.nih.gov/pubmed/25340638
 
-Campagnolo the hors delai de wolf as the toto turns venga venga venga, sanchez nys. Pantani hell of the north oude kwaremont nitto koppenberg, tiegemberg van steenbergen lombardie flamme rouge lemond e3 prijs vlaanderen.
+6. TCGA: genome, methyl, RNA of;
+ IGCG
+ 
+ 7. mutation profile
+ 8. de-differentiation
+ - by epigenentic modification 
+ 
+ - immunotherapy: immunogenomics
+ - micorenvinorment: 
 
-Planckaert berg ter stene freire gorgeous george in rouleur derby, vaughters fabianese omloop het volk rouleur play rouleur derby. Bottechia petacchi, milan-san remo van summeren off the back cutters the cassette.
+9. Prognosis:
+- survival
+   - overall: % of patient are alive
+   - relative: % of alive / % alive in similar population --> other cause of death is corrected from the general population
+   - cancer specific survival: % patient die from cancer
+   - disease free survival: % patient live without signs/symptoms of cancer
+       - recurrence-free survival
+       - progression-free survival
+- stage: TNM system and stage I-IV
+- grade: histological appearance: well-differentiate? undifferentiated?
 
-Nyvelocity pyrenees vande velde merckx. La fleche wallonne fixie pau, with muur hors categorie boonen aerts operacion puerto, topsport vlaanderen pereiro randonneur. This greek text is produced by rouleur derby, almost certainly the best fantasy cycling game in the world snob trousselier col du galibier, flanders venga venga venga suitcase of courage cutters kolobnev molenberg.
+
+10. Heritability of cancer?
+- germline mutation also take part of cancer development
+
+11. Herterogeiety of cancer
+
+12. Proto-oncogene/oncogene v.s. tumor supressor gene
+- increased expression: copy-number, promoter, or regulation problem, chromosome rearrangement
+
+** which hallmark of cancer does that lead to (oncogene)
+** copy number of tumor supressor gene
+
+- SNP, indel
+- inversion, translocation
+- chr number (gene amplification
+
+
+point mutation rate stays the same in cancer??
+
+
