@@ -10,7 +10,7 @@ title: About Hsuan-Lin Her
 
    <h2>Current research focus: Antibiotic resistance</h2>
    <p>Antibiotic resistance is a huge problem, especially in my country, Taiwan. Due to the health insurance policy, we have inexpensive access to medical care, resulting in overuse of antibiotics and emergence of resistant pathogens. During my rotation in the Intensive Care Unit, I saw a number patients fighting against resistant pathogens. Once patients have carbapenem-resistant pathogens, we are left with few choices. Health and technologies had advanced so much, but people are still dying from untreatable infections. Therefore, I chose to investigate this topic as my undergradate reseach.</p>
-   <p>My supervisor is Dr. Yu-Wei Wu in Taipei Medical University, Graduate Institue of Biomedical Informatics. He works primarily on metagenomics. He is super supportive and always gives me a lot of helpful advice! Check out <a href=“https://sites.google.com/site/yuwwubioinfo/“>his profile HERE!</a></p>
+   <p>My supervisor is Dr. Yu-Wei Wu in Taipei Medical University, Graduate Institue of Biomedical Informatics. He works primarily on metagenomics. He is super supportive and always gives me a lot of helpful advice! Check out <a href=“https://sites.google.com/site/yuwwubioinfo“>his profile</a>here.</p>
    
    <h3>Project: A pan-genome based network to assess resistant potential of hypothetical genes</h3>
    
