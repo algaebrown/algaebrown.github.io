@@ -10,7 +10,7 @@ title: About Hsuan-Lin Her
 
    <h2>Current research focus: Antibiotic resistance</h2>
    <p>Antibiotic resistance is a huge problem, especially in my country, Taiwan. Due to the health insurance policy, we have inexpensive access to medical care, resulting in overuse of antibiotics and emergence of resistant pathogens. During my rotation in the Intensive Care Unit, I saw a number patients fighting against resistant pathogens. Once patients have carbapenem-resistant pathogens, we are left with few choices. Health and technologies had advanced so much, but people are still dying from untreatable infections. Therefore, I chose to investigate this topic as my undergradate reseach.</p>
-   <a href=“https://sites.google.com/site/yuwwubioinfo/“> I am currently learning computational biology in Dr. Yu-Wei Wu ‘s lab in Taipei Medical University. He is an awesome advisor who always gives me a lot of useful feedback and inspirstions. He works primarily on metagenomics. Check out his profile HERE!</a>
+   <p>My supervisor is Dr. Yu-Wei Wu in Taipei Medical University, Graduate Institue of Biomedical Informatics. He works primarily on metagenomics. He is super supportive and always gives me a lot of helpful advice! Check out <a href=“https://sites.google.com/site/yuwwubioinfo/“>his profile HERE!</a></p>
    
    <h3>Project: A pan-genome based network to assess resistant potential of hypothetical genes</h3>
    
@@ -22,7 +22,7 @@ title: About Hsuan-Lin Her
    
    <h3>Project: Predicitng Antibiotic Resistance Based on Pan-genome</h3>
    <p> We aimed at building an integrated method of to predict antibiotic resistance based on interpretable feature and model. Given the importance of horizotal gene transfer, the pan-genome, a concept describing all possible genes by a species, is the excellent way to view resistance. We build a model based on the absence-presence pattern. We select the best set of genes using genetic algorithm for the prediction.</p>
-   <a href="https://www.ncbi.nlm.nih.gov/pubmed/29949970">Our paper </a>
+   <p><a href="https://www.ncbi.nlm.nih.gov/pubmed/29949970">Our paper </a></p>
    <p> In this study, genomes with resistance annotation was downloaded from PATRIC. At the time of project initiation, the data was relatively scarce. But now there are more and more data. Also, the gene pools for genetic algorithm selection was limited to known resistance genes. Single nucleotide variation and sequence difference within gene clusters were not considered. Last but not least, the gene selected from genetic algorithms were not explainable by current knowledge of drug mechanism. We hope to improve those in future studies. </p>
    
    
