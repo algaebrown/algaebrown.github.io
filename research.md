@@ -3,6 +3,8 @@ layout: default
 title: research
 ---
 
+# Research Focus: Antibiotic Resistance
+
 <div class="post">
 	<h1 class="pageTitle">About Hsuan-Lin Her</h1>
 	<img src="{{ '/assets/img/her.jpg' | prepend: site.baseurl }}" alt="">
