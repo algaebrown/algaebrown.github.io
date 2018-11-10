@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Hsuan-Lin Her
+title: About
 ---
 
 <div class="post">
