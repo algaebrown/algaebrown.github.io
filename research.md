@@ -7,24 +7,30 @@ title: research
 Antibiotic resistance is a huge problem, especially in my country, Taiwan. Due to the health insurance policy, we have inexpensive access to medical care, resulting in overuse of antibiotics and emergence of resistant pathogens. During my rotation in the Intensive Care Unit, I saw a number patients fighting against resistant pathogens. Once patients have carbapenem-resistant pathogens, we are left with few choices. Health and technologies had advanced so much, but people are still dying from untreatable infections. Therefore, I chose to investigate this topic as my undergradate reseach.
 
 ## Current Project: A Pan-genome Based Network to Assess Resistant Potential of Hypothetical Genes
-![alt text]('/assets/img/panNet.png')
+![alt text](/assets/img/panNet.png)
+In our previous study, we used student's t-test to identify gene clusters within the E.coli pan-genome that are correlated to resistance. Within the identifies gene clusters, some of them were hypothetical proteins. We wanted to know about their functions, and how their presence/absense leads to resistance, so that new drugs can be made based on that. 
+Networks are very important methods to find out pathways or genes related to disease. There are co-expression networks, protein-interaction networks, and even integrated versions of them (termed **co-functional network**), such as [EcoliNet](https://www.ncbi.nlm.nih.gov/pubmed/25650278), [PseudomonasNet](https://www.nature.com/articles/srep26223#methods). However, when we queried the hypothetical genes using those built networks, it turned out those networks did not contain hypothetical protein of interest.
+To infer functional relation of those hypothetical genes, I proposed to rebuild the co-functional network, that contains all the representing genes of the pan-genome. [Co-functional network](https://www.nature.com/articles/srep26223#methods) is based on **six types of information**: co-citation, co-expression, protein-protein interaction, protein domain sharing, co-inheritance and gene distance. Of all the six types of information for functional inference, **co-inheritance has the best chance to provide functional linkage**, as we could expect other kinds of data for hypothetical genes would be scarce.
+To build co-inheritance network, a group of target genome has to be selected. The previous co-functional networks were based on reference genomes of prokaryotes, archaea, fungi and sometime eukaryotes. However, when searching for hypothetical protein homologs, those genomes generated no hits. We found out most homologs are harbored in closely related species, in this case are Enterobacteriae, Acinetobacter and Pseudomonas. Thus, those genomes are added as an additional set of target genome.
+However, this additional set of target genome has very strong phylogenetic structures within, which will interfere co-inheritance analysis by confusing us with evolutionary events that occured at the root of the tree. We plan to integrate (phylogenetic independent contrast)[https://www.r-phylo.org/wiki/HowTo/Phylogenetic_Independent_Contrasts] to correct this. Other limitations of our study include: unable to address the difference within a gene cluster, and problems related to local statistical methods, as described in this [review](https://www.nature.com/articles/nbt.2419).
 
 
 
-<div class="post">
-	<h1 class="pageTitle">About Hsuan-Lin Her</h1>
-	<img src="{{ '/assets/img/her.jpg' | prepend: site.baseurl }}" alt="">
-	<p class="intro">Hsuan-Lin is a Medical Student from Taiwan, who is interested in explaining the concept of disease with molecules and sequences.</p>
 
-   <h2>
-   <p>
-   <p>My supervisor is Dr. Yu-Wei Wu in Taipei Medical University, Graduate Institue of Biomedical Informatics. He works primarily on metagenomics. He is super supportive and always gives me a lot of helpful advice! Check out <a href=“https://sites.google.com/site/yuwwubioinfo“>his profile</a>here.</p>
+
+
+
+
+
+
+
+<p>My supervisor is Dr. Yu-Wei Wu in Taipei Medical University, Graduate Institue of Biomedical Informatics. He works primarily on metagenomics. He is super supportive and always gives me a lot of helpful advice! Check out <a href=“https://sites.google.com/site/yuwwubioinfo“>his profile</a>here.</p>
    
    <h3>Project: 
    
-   <p>In our previous study, we trained a model to predict antibiotic resistance by absense-presence pattern of genes. In that study, we found a number of hypothetical proteins that are significantly related to resistance. We wanted to know about their functions, so that new drugs can be made based on that. </p>
-   <p>Networks are very important methods to find out pathways or genes related to disease. There are co-expression networks, protein-interaction networks, and even integrated versions of them (such as EcoliNet, PseudomonasNet). However, when I query my hypothetical genes using those built networks, I found that those nets do not contain the genes I am looking for. Therefore, to find out what those genes are doing, I decided to build my own network.</p>
-   <p>Building my own netorks seems mission impossible for me. Where should I get data from? No one would do yeast-two-hybrid for hypothetical proteins! But it turned out evolution had leave us a lot of information in the genomes. And now there are so many genoms in NCBI! Co-inheritance and distance can infer some functional relationships. What‘s more exciting is that RNA-seq can detect unknown species of RNA. So probably I can find something out from those data!</p>
+   <p>
+   <p>
+   <p>
    <p>This idea is very mad. And there are some problems I had thought of （and still did not have good answer). First, maybe most of them they are pseudogenes. Second, since our network is based on pan-genome clusters. In each gene cluster there has some mutations. How good can a representing gene speak for all members of the same clusters? </p>
    <p> Let‘s see what I can find out. </p>
    
