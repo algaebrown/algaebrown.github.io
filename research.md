@@ -24,13 +24,13 @@ However, this additional set of target genome has very strong phylogenetic struc
 ## Project: Predicitng Antibiotic Resistance Based on Pan-genome
 [Paper Full Text](https://www.ncbi.nlm.nih.gov/pubmed/29949970)
 
-![Alt Text](/asset/img/ml_overview.png)
-![Alt Text](/asset/img/why_pang.png)
+![Alt Text](/assets/img/ml_overview.png)
+![Alt Text](/assets/img/why_pang.png)
 
 We aimed at building an integrated method of to predict antibiotic resistance based on **interpretable** feature and model. Given the importance of **horizotal gene transfer, the pan-genome**, a concept describing all possible genes by a species, is the excellent way to view resistance. We build a model based on the absence-presence pattern. 
 
-![Genetic Algr](/asset/img/genetic_algor.png)
-![Final part](/asset/img/final_ml.png)
+![Genetic Algr](/assets/img/genetic_algor.png)
+![Final part](/assets/img/final_ml.png)
 
 We select the best set of genes using genetic algorithm for the prediction. For each antibiotic, the model was built based on the selected set of features. We antiticipate the selected features to be correlated with antibiotic mechanism of action. But it turned out it does not.
  
