@@ -4,17 +4,23 @@ title: research
 ---
 
 # Research Focus: Antibiotic Resistance
+Antibiotic resistance is a huge problem, especially in my country, Taiwan. Due to the health insurance policy, we have inexpensive access to medical care, resulting in overuse of antibiotics and emergence of resistant pathogens. During my rotation in the Intensive Care Unit, I saw a number patients fighting against resistant pathogens. Once patients have carbapenem-resistant pathogens, we are left with few choices. Health and technologies had advanced so much, but people are still dying from untreatable infections. Therefore, I chose to investigate this topic as my undergradate reseach.
+
+## Current Project: A Pan-genome Based Network to Assess Resistant Potential of Hypothetical Genes
+![alt text]('/assets/img/panNet.png')
+
+
 
 <div class="post">
 	<h1 class="pageTitle">About Hsuan-Lin Her</h1>
 	<img src="{{ '/assets/img/her.jpg' | prepend: site.baseurl }}" alt="">
 	<p class="intro">Hsuan-Lin is a Medical Student from Taiwan, who is interested in explaining the concept of disease with molecules and sequences.</p>
 
-   <h2>Current research focus: Antibiotic resistance</h2>
-   <p>Antibiotic resistance is a huge problem, especially in my country, Taiwan. Due to the health insurance policy, we have inexpensive access to medical care, resulting in overuse of antibiotics and emergence of resistant pathogens. During my rotation in the Intensive Care Unit, I saw a number patients fighting against resistant pathogens. Once patients have carbapenem-resistant pathogens, we are left with few choices. Health and technologies had advanced so much, but people are still dying from untreatable infections. Therefore, I chose to investigate this topic as my undergradate reseach.</p>
+   <h2>
+   <p>
    <p>My supervisor is Dr. Yu-Wei Wu in Taipei Medical University, Graduate Institue of Biomedical Informatics. He works primarily on metagenomics. He is super supportive and always gives me a lot of helpful advice! Check out <a href=“https://sites.google.com/site/yuwwubioinfo“>his profile</a>here.</p>
    
-   <h3>Project: A pan-genome based network to assess resistant potential of hypothetical genes</h3>
+   <h3>Project: 
    
    <p>In our previous study, we trained a model to predict antibiotic resistance by absense-presence pattern of genes. In that study, we found a number of hypothetical proteins that are significantly related to resistance. We wanted to know about their functions, so that new drugs can be made based on that. </p>
    <p>Networks are very important methods to find out pathways or genes related to disease. There are co-expression networks, protein-interaction networks, and even integrated versions of them (such as EcoliNet, PseudomonasNet). However, when I query my hypothetical genes using those built networks, I found that those nets do not contain the genes I am looking for. Therefore, to find out what those genes are doing, I decided to build my own network.</p>
