@@ -23,6 +23,7 @@ However, this additional set of target genome has very strong phylogenetic struc
 
 ## Project: Predicitng Antibiotic Resistance Based on Pan-genome
 [Paper Full Text](https://www.ncbi.nlm.nih.gov/pubmed/29949970)
+<iframe width="853" height="480" src="https://www.youtube.com/embed/XDLfX961i_M?list=PLmX8XnLr6zeFfk6aQ9Y6HG7KsdPPuSQqG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![Alt Text](/assets/img/ml_overview.png)
 ![Alt Text](/assets/img/why_pang.png)
