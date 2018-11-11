@@ -16,8 +16,6 @@ navigation:
    url: /index.html
  - title: About
    url: /about
- - title: Contact
-   url: /contact
  - title: Research
    url: /research
 social:
@@ -27,3 +25,4 @@ social:
    email: b101102109@tmu.edu.tw
 
 google_analytics: ""
+
