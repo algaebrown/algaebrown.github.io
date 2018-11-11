@@ -17,8 +17,6 @@ I am an undergraduate researcher in [Dr. Yu-Wei Wu's lab](https://sites.google.c
 - Machine learning
 - Network biology
 
-# Other Skills
-- Graphic Design
 
 # Research Experience
 - 2016-now: Dr. Yu-Wei Wu: [Pan-genomic View on Antibiotic Resistance](https://algaebrown.github.io/research/)
@@ -32,7 +30,7 @@ I am an undergraduate researcher in [Dr. Yu-Wei Wu's lab](https://sites.google.c
 
 
 # Leadership Experience
-- 2016 President, TMU Medical Student Association
+- 2016 President, [TMU Medical Student Association](https://www.facebook.com/TMUMEDSA/)
 
 # Other Experience
 - 2017 TMU Programming competition 1st Place: RentBot; Backend design.
@@ -43,8 +41,9 @@ I am an undergraduate researcher in [Dr. Yu-Wei Wu's lab](https://sites.google.c
 - 2018 Foundation of the Advancment of Outstanding Scholarship Travel Grant
 - 2013 Academic Excellence Award
 
-# Hobbies
-- Drawing
+
+# Other
+- Graphic Design and Visual Art [Portfolio](https://docs.google.com/presentation/d/12F5BlatxtLVkYQ48Kqy66fKiQwjRxkV47duFvHTSVqQ/edit?usp=sharing)
 - "Humanize Science Project"
 - Cooking: "生資阿宅廚房日記"(translation: Kitchen of a geeky computational biologist)
  
