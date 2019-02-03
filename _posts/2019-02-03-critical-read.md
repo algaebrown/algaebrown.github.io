@@ -12,12 +12,16 @@ date:   2019-02-03
 2. 看懂然後就接受，no critical thinking
 3. 不好意思問
 
-1 不是今天想要來分享的問題，3 只要慢慢練習就會好了。今天只想要討論 2: How to think CRITICALLY about a paper?
+1 不是今天想要來分享的問題，3 只要加厚臉皮就好了。今天只想要討論 2: How to think CRITICALLY about a paper?
 
 > You just need to think critically!
-這是一句幹話，as if people are either born to think critically, or they will just "spontaneously** know how to someday. 在 2018 年旁聽一堂課叫做癌症生物資訊學，有一半的時間，都是在 paper reading，老師開電的時候，有一句話我印象非常深刻:
 
-> When you read a paper, you need to think of it as if you are the one writing the paper. Or imagine if you want to reproduce the result someday. (你在讀的時候，要把自己想成要寫一篇類似的 paper，或是要重複他們的結果
+
+這是一句幹話，as if people are either born to think critically, or they will just **spontaneously** know how to someday. 
+
+在 2018 年旁聽一堂課叫做癌症生物資訊學，有一半的時間，都是在 paper reading，老師開**電**的時候，有一句話我印象非常深刻:
+
+> When you read a paper, you need to think of it as if you are the one writing the paper. Or imagine if you want to reproduce the result someday. (你在讀的時候，要把自己想成要寫一篇類似的 paper，或是要重複他們的結果)
 
 過了好一陣子淹死在 paper 裡的日子裡以後，我好像，我是說「好像」知道他想表達啥了：
 
@@ -34,7 +38,7 @@ date:   2019-02-03
 > 讀 paper 同時增進自己實力的方法，就是不停的電自己、找人討論、補足知識。
 我想這是 **How** to read a paper critically 我目前找到最簡單的方法了。
 
-# Case Study: Machine Learning Detects Pan-cancer Ras Pathway Activation in The Cancer Genome Atlas, Way et. al, Cell Reports, April 2018
+## Case Study: Machine Learning Detects Pan-cancer Ras Pathway Activation in The Cancer Genome Atlas, Way et. al, Cell Reports, April 2018
 [Full Text Link](https://www.cell.com/cell-reports/fulltext/S2211-1247(18)30389-9?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2211124718303899%3Fshowall%3Dtrue)
 
 1. 這篇論文想要回答的問題是啥？
