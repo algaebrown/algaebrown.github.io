@@ -6,7 +6,7 @@ title: About
 > Hsuan-lin in a medical student in Taipei Medical University. She has a dream of integrating computational biology, omics with biomedical science.
 ![My photo](/assets/img/her.jpg)
 
-I am an undergraduate researcher in [Dr. Yu-Wei Wu's lab](https://sites.google.com/site/yuwwubioinfo/), Graduate Institue of Biomedical Informatics, Taipei Medical University. My research focuses on machine learning, network models for antibiotic resistance. I am also studying for Medical Doctor (M.D.) degree in Taipei Medical University.
+I am an undergraduate researcher in [Dr. Yu-Wei Wu's lab](https://sites.google.com/site/yuwwubioinfo/), Graduate Institue of Biomedical Informatics, Taipei Medical University. My research focuses on machine learning, network models for antibiotic resistance. I will be pursing Ph.D. on Bioinformatics and Systems Biology, UCSD.
 
 # Education
 - M.D. candidate, Taipei Medical University (2013-2019)
@@ -14,8 +14,7 @@ I am an undergraduate researcher in [Dr. Yu-Wei Wu's lab](https://sites.google.c
 # Practical Computational Skills
 - Python, R, and Matlab
 - PostgreSQL
-- Machine learning
-- Network biology
+- A bit of Machine learning and Network Biology
 
 
 # Research Experience
@@ -40,7 +39,6 @@ I am an undergraduate researcher in [Dr. Yu-Wei Wu's lab](https://sites.google.c
 - 2017 and 2018  Ministry of Science and Technology, Student grant
 - 2018 Foundation of the Advancment of Outstanding Scholarship Travel Grant
 - 2013 Academic Excellence Award
-
 
 # Other
 - Graphic Design and Visual Art [Portfolio](https://docs.google.com/presentation/d/12F5BlatxtLVkYQ48Kqy66fKiQwjRxkV47duFvHTSVqQ/edit?usp=sharing)
