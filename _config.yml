@@ -29,3 +29,5 @@ social:
    email: b101102109@tmu.edu.tw
 
 google_analytics: ""
+plugins:
+  - jekyll-seo-tag
