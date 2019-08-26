@@ -814,7 +814,7 @@ HEADER STYLING
     margin: 0;
     float: left;
     padding-left: 2rem;
-    font-size: 2.25em;
+    font-size: 3.35em;
 	letter-spacing:4px;
     line-height: 3em;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -823,6 +823,10 @@ HEADER STYLING
     .header h1 a {
       color: white;
       text-decoration: none; }
+	.header h2 {
+		font-size: 2.5em;
+		letter-spacing: 3px;
+	color:white;}
 
 /***************
 POST STYLING
