@@ -19,9 +19,9 @@ navigation:
  - title: Research
    url: /research
  - title: Category
-    url: /categories
+   url: /categories
  - title: Tags
-    url: /tag
+   url: /tag
 social:
    github: algaebrown
    twitter: hermuba
