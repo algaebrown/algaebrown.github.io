@@ -31,9 +31,11 @@ Here we generate all the categories.
 {% endfor %}
 
 <h1 class="page-title">
-  <a href="/blog">Blog</a> | {{ page.title }}
+   {{ page.title }}
 </h1>
 <br/>
+
+<h2>All Categories</h2>
 
 <div class="posts">
 <p>
@@ -52,11 +54,9 @@ Here we generate all the categories.
     <h3>
       <a href="{{ post.url }}">
         {{ post.title }}
-        <small>{{ post.date | date_to_string }}</small>
+        
       </a>
-      {% for tag in post.tags %}
-      <a class="codinfox-tag-mark" href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a>
-      {% endfor %}
+      
     </h3>
   </li>
   {% endif %}
@@ -72,11 +72,9 @@ Here we generate all the categories.
     <h3>
       <a href="{{ post.url }}">
         {{ post.title }}
-        <small>{{ post.date | date_to_string }}</small>
+        
       </a>
-      {% for tag in post.tags %}
-      <a class="codinfox-tag-mark" href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a>
-      {% endfor %}
+      
     </h3>
   </li>
   {% endunless %}
