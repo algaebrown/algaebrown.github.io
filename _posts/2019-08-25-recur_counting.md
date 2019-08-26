@@ -3,7 +3,7 @@ layout: post
 title:  "MATH21: Recursive Counting(Lec04)"
 description:
 date:   2019-08-25
-tags:
+tags: [math, discrete math]
 category: MATH21
 tagline: 
 ---

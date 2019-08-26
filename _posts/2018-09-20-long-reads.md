@@ -2,6 +2,7 @@
 layout: post
 title: "Why long reads?"
 date: 2018-09-19
+tag: [literature]
 ---
 
 1. Now:

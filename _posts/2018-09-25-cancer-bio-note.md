@@ -2,6 +2,7 @@
 layout: post
 title:  "Cancer Bioinformatics 1: Cancer Biology"
 date:   2017-09-19
+tags: [literature]
 ---
 
 1. germinal v.s. somatic mutation

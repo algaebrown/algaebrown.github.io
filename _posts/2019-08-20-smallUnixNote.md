@@ -2,6 +2,7 @@
 layout: post
 title:  "Some little Unix notes for myself"
 date:   2019-08-20
+tags: [coding, unix]
 ---
 
 1. When tab completion does not work

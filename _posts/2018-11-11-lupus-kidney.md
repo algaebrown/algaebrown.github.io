@@ -2,6 +2,7 @@
 layout: post
 title:  "Renal Menifesations of Systemic Lupus Erythematous"
 date:   2018-11-11
+tags: [literature, medicine]
 ---
 This is my note for a special case of Systemic Lupus Erythematous + Nephrotic Syndrome. 
 We had a patient, whose renal biopsy showed Focal Segmental Glomerulosclerosis(FSGS), which does not fall into any category of lupus nephritis.

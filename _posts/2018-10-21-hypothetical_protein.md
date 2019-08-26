@@ -2,6 +2,7 @@
 layout: post
 title: "State of the art of hypothetical protein prediction in prokaryotes"
 date: 2018-10-21
+tags: [literature]
 ---
 
 # Original Paper:
