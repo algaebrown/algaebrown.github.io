@@ -6,7 +6,6 @@ tag: [literature]
 ---
 
 1. Now:
-
 - the sequences we have are based on parallel short-reads
 - we know about a diseased genome by resequencing, that is, sequence by short read, then compare to a reference genome
 

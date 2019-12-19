@@ -3,10 +3,10 @@ layout: default
 title: research
 ---
 
-# Undergrad Research Project: Antibiotic Resistance
+# Research Focus: Antibiotic Resistance
 Antibiotic resistance is a huge problem, especially in my country, Taiwan. Due to the health insurance policy, we have inexpensive access to medical care, resulting in overuse of antibiotics and emergence of resistant pathogens. During my rotation in the Intensive Care Unit, I saw a number patients fighting against resistant pathogens. Once patients have carbapenem-resistant pathogens, we are left with few choices. Health and technologies had advanced so much, but people are still dying from untreatable infections. Therefore, I chose to investigate resistance as my undergradate reseach.
 
-advisor: [Dr. Yu-Wei Wu](https://sites.google.com/site/yuwwubioinfo/home) at Graduate Institue of Biomedical Informatics, Taipei Medical University
+My current advisor: [Dr. Yu-Wei Wu](https://sites.google.com/site/yuwwubioinfo/home) at Graduate Institue of Biomedical Informatics, Taipei Medical University
 
 ## Current Project: A Pan-genome Based Network to Assess Resistant Potential of Hypothetical Genes
 ![alt text](/assets/img/panNet.png)

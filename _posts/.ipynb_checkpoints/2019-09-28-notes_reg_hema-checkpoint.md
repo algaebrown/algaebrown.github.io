@@ -1,12 +1,3 @@
----
-layout: post
-title:  "single cell bisulfite sequencing and HSC"
-description:
-date:   2019-10-01
-tags: [bioinformatics]
-category: algorithm
-tagline: 
----
 
 
 # Recognizing hematopoietic cell types
