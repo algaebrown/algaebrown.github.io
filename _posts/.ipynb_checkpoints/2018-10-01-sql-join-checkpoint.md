@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Notes for postgresql join"
+date: 2018-10-01
+tags: [SQL, coding]
+---
+
+# Problem
+Recently I am working on some gene-gene interaction prediction problem. We have several sets of "interaction data": **co-expression, co-inheritance, co-citation...** and so on. The "goldstandard of interaction" is defined by sharing at least one Gene Ontology(GO) term by the two genes. We genereated positive and negative gold standard pairs. And now I need to join the gold standard pairs with the interaction data table.(see [1] for more clear explanations)
+
+# The tables has those columns
+1. interaction data has: gene1, gene2, data (`itxn`)
+- data can either be: correlation coefficient between expression level; mutual information between two co-inheritace; or simply co-citation or not
+
+2. goldstandard data has: gene1, gene2, goldstandard (`gold`)
+- goldstandard is either 0 or 1, meaning if that two genes share GO or not
+
+# SQL thinking
+```
+OUTER JOIN 
+ON 
+(itxn.gene1 = itxn.gene1 AND itxn.gene2 = itxn.gene2) OR (itxn.gene1 = itxn.gene2 AND itxn.gene2 = itxn.gene1)
+```
+
+# My problem
+1. Not sure if `()` and `AND/OR` can work on `ON`
+2. should there be more efficient way to work with "interchangable index" (interaction between gene1 and gene2 is the same as the interaction between gene2 and gene 1)
+
+# searching for solution
+1. the "SQL thinking" could work [2]
+2. or instead always put the lower gene id in gene 1 [2]
+3. In other SQL language there's `<>` but that does not exist in postgresql (at least I cannot find it)
+
+# Reference
+[1]https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139006#sec002
+[2]https://stackoverflow.com/questions/15143688/how-to-represent-interchangeable-columns

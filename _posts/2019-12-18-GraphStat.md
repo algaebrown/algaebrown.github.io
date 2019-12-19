@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Structureandmodelsofnetworkss"
+title:  "Structure and Models of Networks"
 description:
-date:   2019-11-12
+date:   2019-12-19
 tags: [graph]
-category: math
+category: graph
 tagline: 
 ---
 # Real World's graph property
