@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Predicting Evolution?"
-date: 2018-09-13
+date: 2019-12-30
 tags: [literature]
 ---
 I ran into this cool paper titled ["Predicting the evolution of Escherichia coli by a data-driven approach"](10.1038/s41467-018-05807-z) in my nature rss feed.
