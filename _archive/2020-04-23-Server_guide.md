@@ -1,15 +1,15 @@
 ---
-layout:     post
-title:      "Working with Servers: survival guide!"
-subtitle:   "minimalism lol"
-date:       2017-12-02 12:00:00
-author:     "AlgaeBrown"
-header-img: "img/post-bg-04.jpg"
-comments: true
+layout: post
+title:  "Suviving in Servers: Connect, Move around, Open Windows, Editing Files"
+description: 
+date:   2020-04-23
+tags: [Bioinformatics, Bash, unix]
+category: tips
+tagline: 
 ---
 This is **super short** survival guide to share with you how to work with linux server. I am not an expert regarding to this. But I will make sure that this article can help you **survive**. So let's get started!
 
-# connecting to the other computer using `ssh`
+# Connecting to the Other Computer Using `ssh`
 
 1. First you need to have `ssh` on **YOUR** computer!
 Mac OS users, I don't think you will need to install anything.
@@ -36,6 +36,12 @@ some people may know `scp`, but `rsync` is better for it will not restart all up
 
 for detailed rsync commands, please visit [rysnc tutorial](https://www.tecmint.com/rsync-local-remote-file-synchronization-commands/)
 
+# About files and directories.
+`mv` to move to some folders. `cp` to copy. `mkdir` to create fodler. `rm` to delete. `ls` to list stuffs in a folder.
+
+# Taking a Looks at Files
+`cat` to print out the whole file. `head` or `tail` to look at the first/last few lines. `less` to enable scrolling view.
+
 # Code on the server: you will need an editor that can work solely in the terminal! It's `emacs` (or `vim`)
 
 I don't know how to use `vim`. But I know a little bit about emacs. I have to admit that without a mouse, and the right-clicks, marking  regions, it INITIALLY feels **miserable** to code.
@@ -60,4 +66,3 @@ The general concept of using emacs is to:
 That's all I need to survive.
 There are, of course, A LOT OF fancy functions helping you to work **very efficiently** with emacs. For those functions, I will refer you to the best tutorial (but in Chinese) [Emacs 101](https://github.com/emacs-tw/emacs-101-beginner-survival-guide)
 
-These's are all I know to survive with my Ubuntu server. Hope this helps.

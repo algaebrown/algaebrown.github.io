@@ -1,16 +1,25 @@
 ---
 layout: post
-title:  "Why do I do/love bioinformatics?為什麼我愛生物資訊？"
+title:  "為什麼我愛生物資訊"
+description: Why do I fall in love in Bioinforamtics? 
 date:   2019-01-31
+tags: [Bioinformatics, diary]
+category: algorithm
+tagline: 
 ---
 
+People asked me all the time - **"As a medical student, why do you do bioinformatics?"** They often started guessing before I had my answer. "Ah! I know, you must be a programming geek!" or "You must hate experimental biology!" In fact, when I first stepped into research, I did not even know bioinformatics exist. I always had a hard time learning to code, and drown in those ugly equations for hundreds of nights. The only thing that bioinformatics appeals to me, is - **It seems to be the only way towards a cell in silico (in computer)**.
+
 不管是在申請入學、還是 PGY 面試，或只是一般的聊天，都常常有人問我：「你是個醫學生，為什麼會想說要做生物資訊的專題？」常常別人的猜測是：「因為你很喜歡寫程式？」「因為你討厭做實驗？」其實剛開始做研究的我，既不是一開始就做生物資訊，也不知道世界上還有這個東西；我一點也不喜歡寫程式和算數學，但我想我會進到這個領域，是因為它能回答我的問題，這個問題是傳統的 wet lab 研究無法回答的—我想要在電腦裡造一顆細胞。
+
+As a medical student, I had to memorize a lot of pathways, pathophysiologies, to symptoms that seems to arise from a cascade of events from thousands of cells. However, even with all those knowledges, there are still lots of diseases we cannot explain, or prevent, not to say, treat. I always love the complexity of a cell. I love how those proteins "talk" to each other, without a word, but still intricately organize lots of processes. This complexity is the gap between tons of researches and diseases. If we can model them, as a cell in silico, then, I can travel inside the cell, exploring the unresolved, and bring the gaps together. Moreover, if I had to be do medschool again, I hope I can spend less time using my brain as a database.
 
 一顆電腦裡的細胞的想法，來自於課堂一千萬條需要背誦的生物知識—from pathway, to pathophysiology, to disease，很複雜又精緻的讓人著迷，但  要背起來考試，我覺得很煩。更煩的是就算知道那麼「多」，還是很多我們不知道、無法解釋的。那時候我就在想，那麼多人在研究，零零散散的結果那麼多，看也看不完。如果有一顆細胞可以把所有資訊都整合起來，包含序列、結構、還有我們所知的一切都在那台電腦裡演一顆細胞，然後我們想知道什麼，就用那台電腦模擬，就可以不用考試了！而且，我一直想要去細胞裡旅行，所以這顆細胞可以變成線上遊戲，然後我就可以進去玩了！
 
 就是這種很神經病的想法，讓我慢慢走上這條路。
 
 ------
+
 
 不過有這個想法之後，它就惡狠狠的只停留在「一個想法」的階段，因為我實在不知道這麼大一個東西要從哪裡開始阿！我也想說，恩，如果要會搞電腦，就要會寫程式，也曾經斷斷續續的學過 python、還有偷裝過linux 虛擬機試圖學些東西，但是這些課程說實在，一開始都讓我看不到會怎麼發展成一顆細胞，我又是一個心急又沒耐性的人，所以兩下子就不學了。
 
