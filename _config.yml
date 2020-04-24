@@ -1,5 +1,5 @@
 title: Cell In Silico
-description: Molecules, Sequences to Diseases
+description: 
 
 url: http://algaebrown.github.com/
 baseurl: ""
@@ -9,7 +9,7 @@ permalink: blog/:title/
 markdown: kramdown
 highlighter: rouge
 gems: [jekyll-paginate]
-paginate: 5
+paginate: 10
 
 navigation:
  - title: Home

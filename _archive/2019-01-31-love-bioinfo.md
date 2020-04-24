@@ -10,32 +10,46 @@ tagline:
 
 People asked me all the time - **"As a medical student, why do you do bioinformatics?"** They often started guessing before I had my answer. "Ah! I know, you must be a programming geek!" or "You must hate experimental biology!" In fact, when I first stepped into research, I did not even know bioinformatics exist. I always had a hard time learning to code, and drown in those ugly equations for hundreds of nights. The only thing that bioinformatics appeals to me, is - **It seems to be the only way towards a cell in silico (in computer)**.
 
-不管是在申請入學、還是 PGY 面試，或只是一般的聊天，都常常有人問我：「你是個醫學生，為什麼會想說要做生物資訊的專題？」常常別人的猜測是：「因為你很喜歡寫程式？」「因為你討厭做實驗？」其實剛開始做研究的我，既不是一開始就做生物資訊，也不知道世界上還有這個東西；我一點也不喜歡寫程式和算數學，但我想我會進到這個領域，是因為它能回答我的問題，這個問題是傳統的 wet lab 研究無法回答的—我想要在電腦裡造一顆細胞。
+不管是在申請入學、還是 PGY 面試，或只是一般的聊天，都常常有人問我：「你是個醫學生，為什麼會想說要做生物資訊的專題？」常常別人的猜測是：「因為你很喜歡寫程式？」「因為你討厭做實驗？」其實剛開始做研究的我，既不是一開始就做生物資訊，也不知道世界上還有這個東西；我一點也不喜歡寫程式和算數學，但我會進到這個領域，是因為它能回答我的問題－這個問題是傳統的生物研究無法回答的—我想要在電腦裡造一顆細胞。
 
 As a medical student, I had to memorize a lot of pathways, pathophysiologies, to symptoms that seems to arise from a cascade of events from thousands of cells. However, even with all those knowledges, there are still lots of diseases we cannot explain, or prevent, not to say, treat. I always love the complexity of a cell. I love how those proteins "talk" to each other, without a word, but still intricately organize lots of processes. This complexity is the gap between tons of researches and diseases. If we can model them, as a cell in silico, then, I can travel inside the cell, exploring the unresolved, and bring the gaps together. Moreover, if I had to be do medschool again, I hope I can spend less time using my brain as a database.
 
-一顆電腦裡的細胞的想法，來自於課堂一千萬條需要背誦的生物知識—from pathway, to pathophysiology, to disease，很複雜又精緻的讓人著迷，但  要背起來考試，我覺得很煩。更煩的是就算知道那麼「多」，還是很多我們不知道、無法解釋的。那時候我就在想，那麼多人在研究，零零散散的結果那麼多，看也看不完。如果有一顆細胞可以把所有資訊都整合起來，包含序列、結構、還有我們所知的一切都在那台電腦裡演一顆細胞，然後我們想知道什麼，就用那台電腦模擬，就可以不用考試了！而且，我一直想要去細胞裡旅行，所以這顆細胞可以變成線上遊戲，然後我就可以進去玩了！
+一顆電腦裡的細胞的想法，來自於課堂一千萬條需要背誦的生物知識—生化、病理學、到真正的疾病，複雜又精緻得讓人著迷，但要背起來考試，十分討厭。更討厭的是就算知道那麼「多」，許多疾病的發生還是無法解釋、更別說是治癒。如果電腦裡有著一顆細胞，可以把所有資訊都整合起來，包含序列、結構、還有我們所知的一切 ，然後我們想知道什麼，就用那台電腦模擬，就可以不用考試了！而且，我一直想要去細胞裡旅行，所以這顆細胞可以變成線上遊戲，然後我就可以進去玩了！
 
 就是這種很神經病的想法，讓我慢慢走上這條路。
 
 ------
+An in silico cells stayed as a thought without action. I had no idea where to start. I tried learning Linux and Python online. But as a beginner, it is hard to imagine how these syntax and commands could eventually lead to an in silico cell. I'm not patient, so I gave up. 
+
+有這個想法之後，它就惡狠狠的只停留在「一個想法」的階段，我實在不知道這麼大一個東西要從哪裡開始阿！我曾經嘗試線上學習 Python 和 Linux，但是做為一個初心者，實在很難想像這些生硬的指令怎麼樣會堆疊成一個細胞。我是一個很急躁的人，不久便放棄了這個計劃。
+
+I continued experimental work - designing a diagnostic PCR primer for antibiotic resistant genes. To find a unique probe that hybridize to the gene of interest, but not to other DNAs, I had to repetitively query NCBI database and a website called primer 3 - by hand! I am not patient, again, and really hate doing repetitve work. So I enrolled in a programming course, feeling determined. 
+
+於是我就繼續當時在分子生物實驗室的實驗－設計並且測試能偵測抗藥性基因的引子。要設計具有專一性的引子，我需要不停地查詢 NCBI 的資料庫，以及一個名為 Primer 3 的網頁。現在回想起來覺得十分不可思議，但是當時一百條的序列，我的確是手動的複製貼上，再把結果貼回 excel 表格裏頭。我是一個急躁，且超級討厭重複工作的人，於是我下定決心，上了一堂醫資所的程式設計課，目標就是要自動化重複的工作。
 
 
-不過有這個想法之後，它就惡狠狠的只停留在「一個想法」的階段，因為我實在不知道這麼大一個東西要從哪裡開始阿！我也想說，恩，如果要會搞電腦，就要會寫程式，也曾經斷斷續續的學過 python、還有偷裝過linux 虛擬機試圖學些東西，但是這些課程說實在，一開始都讓我看不到會怎麼發展成一顆細胞，我又是一個心急又沒耐性的人，所以兩下子就不學了。
+Although I did not successfully automate anything in the end, my advisor found that I like keyboards more than pipettes. So he put me on a project he had in mind for long - predicting beta-lactamase activity from sequence. A senior in lab who had a background in engineering, pointed me to a field called "Machine Learning". It sounded just like black magic. I used to think, computers do what I told them to do. I will have them loop 1000 times. So in order to model an enzyme, I will first construct atoms, to amino acids, then to the whole protein. But what if I don't know all the exact parameters? It turns out the computer can learn some rules that we human's don't know. And those rules can work. Exposed to this field completely changed my thought about what computers can do. It seemed, an in silico cell is possible.
 
-不過我覺得我最幸運的事，就是我一直有在做研究。一開始我是在分子生物學的實驗室，設計著 PCR 的 primer，那時候設計 primer 要一直搜尋 NCBI database，還有使用 primer3 的界面去調 primer 的參數，生性懶惰的我，總是作夢著我要讓電腦自己跑，然後我要把我的時間拿來做更有趣的事！於是，為了這個任務，我跑去醫資所，第一次認真的上完了 programming 的課，那時候學的語言叫作 Perl，其實我並沒有學得很好，到 Object-oriented 的部份就覺得有點吃力，但是發現自己可以用迴圈 automate 一些事情之後，就成就感大增。帶著電腦跑回實驗室跟老師說我會寫程式了！我要把這一切都自動化！猜猜我有沒有成功？沒有。
-
-上完一堂程式課，跟真正把程式這件事情，搞在研究裡面，對我來說是有點差距的。一直到老師看到我好像很喜歡跟電腦胡搞瞎搞，把我加到另一個 dry lab 的計劃裡面，讓我在工作中學習，我才真正能夠讓程式幫上我的忙。那時候，實驗室剛好有一位學長是電機系畢業的，他教我 matlab，我那時的任務就是把他跟老師討論的事情，做出來，就像是把人話翻成電腦話。在那時我也開始接觸到 Machine learning 這件事情，我發現電腦不是只能照著我說的做，我也可以訓練他學會一些不那麼明顯的規則。這就又大大增加了我對一顆電腦裡的細胞的幻想。以前我對一顆電腦裡的細胞的想法是 rule-based 的，譬如說我知道蛋白 A 和 蛋白 B binding 的平衡係數是 xx，我就用這些已知的生物的、化學的規則來模擬，但是如果我不知道參數呢？這時候我好像在 Machine Learning 看到了一點契機，雖然根本想不到該用什麼當 input，什麼當 output，然後序列、表現型這種不是數字的東西要怎麼 train 阿，都讓我很疑惑，不過我還是經歷了一段什麼都想 Machine Learning 的時期。
-
-------
-
-接觸到 Machine Learning 這件事情，我決定要把它變成真的會動的東西，不要只是停留在 Andrew Ng 的 課堂 Exercise，我要做出世界上還沒有的東西！！於是我就又跑去醫資所，想說跟大家一起上課，期末報告要來做個好玩的事情，而且我想要認識不同的同學、老師！那時候大三修寄生蟲，要認蟲卵，有個 FB 社團是大家可以 po 蟲卵來討論，然後寄生蟲老師會幫助大家 validate，我就想說，不然，來建一個model 來看蟲卵好了！所以期末報告的時候，我就跟邱泓文老師說想要 train 蟲卵的照片，告訴我是哪隻蟲，但老師跟我說 image processing 很難，勸我可做比較簡單的心音。所以最後就去參加了 Computing in Cardiology 的 Challenge，電腦聽聲音，告訴我有病還是沒病。
-
-在這個 project 裡面其實我碰到不少問題，一開始的時候既不知道訊號處理是啥，也看不懂大會的 segmentation 程式是什麼。還記得下載了一篇心音的訊號處理的 review ，什麼 wavelet, fourier, high pass/low pass filter 和更多我根本記不得的東西，只知道他想要把複雜的波形拆成 sin 或是別種基本的 wave，然後用他出現的時間、頻率等等當作是 feature 學習，至於為什麼他的數學那樣寫，我真的是無法。老師人很有耐心，我記得他在白板上用圖示告訴我有哪些步驟可以取出我要的數字來 learning，把每個週期的心音先怎麼分等等，然後我回家去把他說的變成會動的東西。我那時也想說這次是來學 Machine Learning 為主，那麼訊號處理就不要鑽牛角尖好了，所以我就很開心的取完 feature 然後拿著這些東西要來 learning。
-
-在 Learning 的時候是我第一次真正想要自己去解決問題，那時有不平衡 dataset 的問題，太多正常的、太少有病的，所以 model 雖然好像正確率高，但是對疾病抓不太到，所以我就開始上網搜尋要怎麼解決問題，然後 implement 別人的作法。這次產生的模型不是特別準、也不是特別新潮的模型，但是對那時的我來說，出去看看別人做什麼是很大的刺激；對我來說，能真的 make the computer learn something 也是對自己很大的鼓勵，我知道自己可以做出點微小的東西，剩下的就是要怎麼把這件事情變成細胞了。
+上完這堂課，我最後還是沒有成功做出我要的東西。回想起來，我根本學得不好，Object-oriented programming 其實就有點聽不懂，也自然不知道要如何使用別人做好的套件。但即使我學的很好，隨後我也發現，上完一堂課，跟把東西實踐在研究之中，是很有差距的事。吳瑞裕老師發現比起持著自動滴管，我似乎更喜歡跟電腦胡搞瞎搞。於是他讓我加入實驗室的另一個計畫－由蛋白質序列，預測活性。當時實驗室電機背景的黃胤凱學長，跟我介紹了機器學習，這個名詞聽起來就像是黑魔法。於是我的工作，就是把他跟老師得出的結論，翻譯成 matlab 語言，回家以後就看看 Andrew Ng 的機器學習影片，寫寫作業。學習機器學習，是一個很大的轉捩點－以前我總覺得，要模擬一顆細胞，必須從模擬一顆原子開始，逐漸堆積到生物化學的等級，但問題是，其中許多參數是未知、甚至無法測量。機器學習，讓我看到一點契機，雖然電腦不懂蛋白質在搞什麼，但是他可以學會一些人類也不知道的規則，用來預測我們想知道的結果。雖然並不知道確切要如何執行，但對於電腦裡的細胞，我又開始滿懷希望。
 
 ------
+
+To become a machine learning expert - from the naive undergrad mindset - I need more hands on experience, and more advising from computer people. I proposed to do a parasite ovum classifier as a class project. Dr. Chiu advised me not to do image processing at the first try, since those math are too sophisticated. So instead, we shoot for a classifier for pathologic heart sounds.
+
+我經歷一段機器學習的狂熱時期，當時的我決定，若要專精機器學習，那我需要更多經驗，以及電資領域的更多指導。於是，在一堂機器學習的實體課中，同時困擾於寄生蟲跑台，我提出想要做一個蟲卵照片分類器。當時邱泓文老師建議我，一開始做數學不要那麼重的東西。於是最後，我們決定從心音的分類開始－電腦聽聲音，告訴我有病還是沒病。
+
+He was right. Even with 1 dimensional waveform, I had a hard time understanding how Fast Fourier Transform work. Neither can I understand Viterbi Algorithm for segmentation. I could only had a rough intuition what those "functions" are outputting. Dr. Chiu was extemely patient. He drew a lot of diagrams explaining how features can be extracted. All I do is to translate his language into matlab code.
+
+他說的沒錯，我的數學真的很爛，台灣的醫學院是高中畢業就直接就讀，大多也不會琢磨太多在基礎科學上。即使是一維的波型，我還是很難了解傅立葉轉換到底怎麼成功的，也不了解大會提供的 Viterbi Algorithm 是如何把心音的錄音切出周期來，我靠著邱老師耐心的講解，大略了解每一個函式會吐出什麼東西，然後我把他吐出來的數字，用 matlab 串一串，餵進一個短短淺淺的 neural network 裡面。
+
+
+For the first time, I slave my computer for something without explicit rule. I attended the first conference ever with our modest performing model. 
+
+這是我第一次奴役我的電腦，做一些沒有
+
+------
+If Fourier transform can turn sounds into numbers for models to learn, then what is the appropriate "transform" for sequences and chemical structures? I wanted to get back to the original sequence to activity project, but something is still missing.
+
 有了一個 machine learning 的小小期末報告，我開始想如果聲音是 Fourier transform 可以變成數字，那麼序列呢？化學結構呢？我那時就想，真正做生物資訊的人，應該會知道吧！那時候沒有很會查 paper，就算查到了也有看沒有懂，所以我就跑去找了現在的老師，跟他說～我在想要 predict 抗藥性，用所有的基因和藥物的結構，不知道要怎麼做ㄟ。然後就來來回回的討論，他先建議我看看 k-mer，然後我也在慢慢的把別人做類似的事情的文章蒐集起來看過一遍，整理出別人還有用哪些 feature、模型、最好做到怎麼樣，然後我們要怎麼去做不一樣而且比別人更好，就這樣討論討論，把結論寫成一篇文章，這就是我的第一個大專生計劃。其實寫的時候，根本沒有把握可以做得出來，就只是一個大概的計畫吧，有很多細節和技能都是在後來才補上的。
 
 在這個過程中，學了 python，還有怎麼在 linux 裡面   、multiprocessing，還有生物資訊的檔案們，等等。做到一半的時候老師靈光乍現，說想要用 pan-genome 這件事情來試看看，於是我們很快把文獻翻過一遍，確定沒人做過這件事，就做了。遇到很多困難，包含模型不怎麼樣，然後 mutation 這件事情要怎麼融合在這裡面之類的（因為 mutation 也很重要阿）問題，也碰壁很多次，譬如說化學結構的 feature 就是很長又很怪異，而且我們兩個人不是化學家，也不知道要怎麼去調校人家，最後只好果斷放棄。後來老師又靈光乍現說不然用 genetic algorithm 來試看看 feature selection 好了，結果就出現很好的結果，結果好是很好，可是當我們想要回頭解釋生物的時候，卻發現和已知的知識不符。
