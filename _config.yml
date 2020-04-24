@@ -31,3 +31,4 @@ social:
 google_analytics: ""
 plugins:
   - jekyll-seo-tag
+theme: jekyll-theme-cayman
