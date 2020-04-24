@@ -2,7 +2,6 @@
 layout: default
 title: research
 ---
-# Correcting Batch effect in Killer-Immunoglobuilin-like receptor(KIR) copy number variation with integrated NMF(iNMF).
 
 # Undergrad Research Project: Antibiotic Resistance
 Antibiotic resistance is a huge problem, especially in my country, Taiwan. Due to the health insurance policy, we have inexpensive access to medical care, resulting in overuse of antibiotics and emergence of resistant pathogens. During my rotation in the Intensive Care Unit, I saw a number patients fighting against resistant pathogens. Once patients have carbapenem-resistant pathogens, we are left with few choices. Health and technologies had advanced so much, but people are still dying from untreatable infections. Therefore, I chose to investigate resistance as my undergradate reseach.
