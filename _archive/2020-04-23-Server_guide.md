@@ -23,7 +23,7 @@ Windows users, that's a little bit tricky. Try using `mintty`, git shell, OR CHA
 
 3. type the password and congrats you're now inside that computer :)
 
-# use `tmux`, to open multiple windows and to prevent information loss in case you get disconnected from your server
+# use `tmux` or `screen`, to open multiple windows and to prevent information loss in case you get disconnected from your server
 
 What is tmux? It's something that helps maintaining your process on the remote computer even your local computer goes to sleep (or internet's dead).
 It also has other functionalities, for example, to have multiple tabs so that you can work very fast (conditioned on you're familiar with the shortcuts lol).
