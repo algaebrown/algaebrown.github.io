@@ -6,6 +6,7 @@ date:   2020-06-14
 tags: [Biology, RNA]
 category: biology
 tagline: 
+comments: true
 ---
 # What are Non-coding RNAs
 
