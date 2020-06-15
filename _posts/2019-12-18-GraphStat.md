@@ -6,6 +6,7 @@ date:   2019-12-19
 tags: [graph]
 category: graph
 tagline: 
+comments: true
 ---
 # Real World's graph property
 - power law: log-log plot of degree distribution is linear. skewed degree distribution

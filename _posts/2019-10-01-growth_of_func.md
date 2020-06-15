@@ -6,6 +6,7 @@ date:   2019-10-01
 tags: [algorithm]
 category: algorithm
 tagline: 
+comments: true
 ---
 **CSE 202 Lecture 2-4**
 - Divide and Conquer
