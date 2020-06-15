@@ -14,9 +14,10 @@
    <div class="content">
       <div class="container">
          {{ content }}
+         {% include disqus.html %}
       </div>
    </div><!-- end .content -->
-   {% include disqus.html %}
+   
    {% include footer.html %}
    {% include scripts.html %}
 	{% include mathjax.html %}
