@@ -199,8 +199,7 @@ use index takes 0.0001824619248509407 secs
 
 # Result
 I tried it for 16826 lncRNAs.
-```lncRNA_transcript = '/home/hsher/gencode_coords/gencode.v33.transcript.lncRNA.gff3'
-
+```
 from metadensity.region_call import *
 import time
 
