@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Speeding up count # reads: BedTool coverage vs pysam"
+title:  "I Wrote a Sloth-Like Peak-caller and Fixed it"
 description: When you script never ends maybe time it.
 date:   2020-08-03
 tags: [Biology, RNA, software, pysam, pybedtools]
@@ -222,6 +222,7 @@ lncRNA calling takes 372.3315259660594 secs
 ```
 takes about 6 mins. 
 
+Sending the original 6 jobs finishes within an hour.
 # Summary
 
 This is not the first time I produce ultra-slow programs. Maybe I should learn more about code profiling and integrate them into my everyday developing routine?
