@@ -2,13 +2,22 @@
 layout: default
 title: research
 ---
+# Interpretable Autoencode to Embed Single-cell data
+![alt text](/assets/img/vnn.png)
+
+# Single Cell Secretome in Haematopoietic Stem Cells
+![alt text](/assets/img/hema.png)
+
+# Estimating KIR copy number from Whole Exome Sequencing data
+![alt text](/assets/img/kir.png)
+
 
 # Undergrad Research Project: Antibiotic Resistance
 Antibiotic resistance is a huge problem, especially in my country, Taiwan. Due to the health insurance policy, we have inexpensive access to medical care, resulting in overuse of antibiotics and emergence of resistant pathogens. During my rotation in the Intensive Care Unit, I saw a number patients fighting against resistant pathogens. Once patients have carbapenem-resistant pathogens, we are left with few choices. Health and technologies had advanced so much, but people are still dying from untreatable infections. Therefore, I chose to investigate resistance as my undergradate reseach.
 
 advisor: [Dr. Yu-Wei Wu](https://sites.google.com/site/yuwwubioinfo/home) at Graduate Institue of Biomedical Informatics, Taipei Medical University
 
-## Current Project: A Pan-genome Based Network to Assess Resistant Potential of Hypothetical Genes
+## A Pan-genome Based Network to Assess Resistant Potential of Hypothetical Genes
 ![alt text](/assets/img/panNet.png)
 
 In our previous study, we used student's t-test to identify resistance-related gene clusters within the E.coli pan-genome. Within the identified gene clusters, some of them were hypothetical proteins. We wanted to know about their functions, and how their presence/absense leads to resistance, so that new drugs can be made based on that. 
