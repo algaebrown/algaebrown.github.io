@@ -42,7 +42,7 @@ for detailed rsync commands, please visit [rysnc tutorial](https://www.tecmint.c
 # Taking a Looks at Files
 `cat` to print out the whole file. `head` or `tail` to look at the first/last few lines. `less` to enable scrolling view.
 
-# Code on the server: you will need an editor that can work solely in the terminal! It's `emacs` (or `vim`)
+# Code on the server: you will need an editor that can work solely in the terminal! It's `emacs` (or `vim`) (Optional)
 
 I don't know how to use `vim`. But I know a little bit about emacs. I have to admit that without a mouse, and the right-clicks, marking  regions, it INITIALLY feels **miserable** to code.
 But soon I got used to it.
@@ -62,6 +62,13 @@ The general concept of using emacs is to:
 - `C-x C-s` saves the file
 - `M-x something` opens that something. The only one that I've used was: `M-x shell` lol
 - most importantly, `C-x C-c` to leave emacs if you're pissed.
+
+# Configure your favorite editor to edit on the server
+I have tried VSCode and PyCharm. Here's how to do it:
+
+[VSCode](https://code.visualstudio.com/docs/remote/ssh)
+
+With PyCharm, you will need the professional version, which can be obtained free if your are a student.
 
 That's all I need to survive.
 There are, of course, A LOT OF fancy functions helping you to work **very efficiently** with emacs. For those functions, I will refer you to the best tutorial (but in Chinese) [Emacs 101](https://github.com/emacs-tw/emacs-101-beginner-survival-guide)
