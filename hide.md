@@ -4,7 +4,19 @@
 <img src="{{ '/assets/img/her.jpg' | prepend: site.baseurl }}" alt="">
 	<p class="intro">
    <h1> Some Q&As about me. </h1>
-   
+   # Interpretable Autoencoder to Embed Single-cell data
+![alt text](/assets/img/vnn.png)
+Single-cell technology is revolutionizing our understanding of biology. However, current visualization methods are disconnected with biological insights. It is impossible to tell the functional difference between two clusters by looking at the axes (UMAP-1 and UMAP-2). Therefore, I proposed to directly embed cells into interpretable dimensions. First, I trimmed the Gene Ontology(GO), retaining only a small number of informative terms. Then, I built an autoencoder, where each neuron corresponds to a term. As a result, the learned embedded will be in the space GO terms - which directly provides biological meaning. The extracted embedding was able to retain populational sturcture. Looking closer at each axes, it successfully tells us the biggest different between glutaminergic neuron and other cell types are "glutamate carboxylase activity".
+
+# Single Cell Secretome in Haematopoietic Stem Cells
+![alt text](/assets/img/hema.png)
+
+
+# Estimating KIR copy number from Whole Exome Sequencing data
+![alt text](/assets/img/kir.png)
+Immunotherapy is changing our way to view cancer. To understand the heterogenous immune response to tumors between patients, we must be able to first accurately measure their genotype. KIR genes is a receptor on natural killer cells. Which haplotype of KIR we have will affect the outcome in many diseases, such as hepatitis, autoimmunity and transplant rejections. 
+
+However, the KIR allele is pretty messy in the current genome coordinate. Previouly, Rachel Marty was able to impute KIR copy number using k-mer counts. She also discovered that the counts are severely affected by different exome capture kit used. To solve this problem, I used a technique called integrated NMF(iNMF) and nearest neighbor to remove the batch effect within dataset. iNMF decompose the k-mers into factors of co-varying k-mers. It also identifying co-varying k-mers in each dataset, and find a common sharing pattern between datasets. Removing the unshared portion, which we assume are the batch effects, we can impute the original k-mer, and infer copy number with a greater accuracy.
    <h2>You said you are a medical student. Why do research? Why COMPUTATIONAL RESEARCH?</h2>
 
    <h3> Because I am looking for the rules of biology and disease</h3>
