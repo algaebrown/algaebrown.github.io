@@ -120,20 +120,25 @@ for exon in exons:
     
     
     if exon.strand == '+':
-        ss3_start = exon.start-23
+        ss3_start = exon.start-20
         ss3_end = exon.start+3
+        ss3_site = exon.start
         
         ss5_start=exon.end-3
         ss5_end=exon.end+6
+        ss5_site = exon.end
     if exon.strand == '-':
-        ss5_start = exon.start-3
-        ss5_end = exon.start+6
+        ss5_start = exon.start-6
+        ss5_end = exon.start+3
+        ss5_site = exon.start
         
-        ss3_start = exon.end-23
-        ss3_end = exon.end+3
+        ss3_start = exon.end-3
+        ss3_end = exon.end+20
         
-    all_5ss.append([exon.chrom, ss5_start, ss5_end, exon.strand, exon.attrs['transcript_id'], exon.attrs['gene_id']])
-    all_3ss.append([exon.chrom, ss3_start, ss3_end, exon.strand, exon.attrs['transcript_id'], exon.attrs['gene_id']])
+        ss3_site = exon.end
+    
+    all_5ss.append([exon.chrom, ss5_start, ss5_end, exon.strand, exon.attrs['transcript_id'], exon.attrs['gene_id'], ss5_site])
+    all_3ss.append([exon.chrom, ss3_start, ss3_end, exon.strand, exon.attrs['transcript_id'], exon.attrs['gene_id'], ss3_site])
 ```
 Convert the list to bedtools and use `BedTool getfastq` to fetch the sequence.
 ```
