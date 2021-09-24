@@ -60,6 +60,8 @@ But it doesn't.
 
 ```
 maxentscan_score5.pl
+maxentscan_score3.pl -h 
+maxentscan_score3.pl --help 
 ```
 will only show "can't open", which is confusing.
 
@@ -90,6 +92,135 @@ wget http://hollywood.mit.edu/burgelab/maxent/download/fordownload/test5
 maxentscan_score3.pl test3
 ```
 
+# It turns out that there is already a python wrapper of it.
+- [NovaSplice](https://github.com/aryakaul/novasplice)
+- [pymaxent]
 
 
+# Running it transcriptome wide
+maxentscan takes a fasta file which contains the 5'ss or 3'ss sequence of designated length. 
 
+Referencing to NovaSplice's way to generate `exon_junction.bed` I wrote the following script:
+
+First I find all the exons
+```
+from pybedtools import BedTool
+coord=BedTool('/home/hsher/gencode_coords/gencode.v33.annotation.gff3')
+
+# generate intron by subtracting exon from intron
+exons=coord.filter(lambda x: x[2]=='exon').saveas()
+```
+
+Then for every exon, a 3'ss is at the 5' end of the exon. 5'ss is at the 3' end of an exon.
+I save those intervals along with its name to a list.
+```
+all_5ss=[]
+all_3ss=[]
+for exon in exons:
+    
+    
+    if exon.strand == '+':
+        ss3_start = exon.start-23
+        ss3_end = exon.start+3
+        
+        ss5_start=exon.end-3
+        ss5_end=exon.end+6
+    if exon.strand == '-':
+        ss5_start = exon.start-3
+        ss5_end = exon.start+6
+        
+        ss3_start = exon.end-23
+        ss3_end = exon.end+3
+        
+    all_5ss.append([exon.chrom, ss5_start, ss5_end, exon.strand, exon.attrs['transcript_id'], exon.attrs['gene_id']])
+    all_3ss.append([exon.chrom, ss3_start, ss3_end, exon.strand, exon.attrs['transcript_id'], exon.attrs['gene_id']])
+```
+Convert the list to bedtools and use `BedTool getfastq` to fetch the sequence.
+```
+import pandas as pd
+df5=pd.DataFrame(all_5ss, columns = ['chrom', 'start', 'end', 'strand', 'transcript_id', 'gene_id'])
+b=BedTool.from_dataframe(df5[['chrom', 'start', 'end',  'transcript_id', 'gene_id', 'strand']])
+x = b.sequence(fi='/home/hsher/gencode_coords/GRCh38.p13.genome.fa', s = True,
+               fo='/home/hsher/gencode_coords/gencode.v33.5ss.fasta')
+
+df3=pd.DataFrame(all_3ss, columns = ['chrom', 'start', 'end', 'strand', 'transcript_id', 'gene_id'])
+b=BedTool.from_dataframe(df3[['chrom', 'start', 'end',  'transcript_id', 'gene_id', 'strand']])
+x = b.sequence(fi='/home/hsher/gencode_coords/GRCh38.p13.genome.fa', s = True,
+              fo='/home/hsher/gencode_coords/gencode.v33.3ss.fasta')
+```
+
+Looking at the output:
+```
+(maxentscan) [hsher@tscc-login2 ~]$ head /home/hsher/gencode_coords/gencode.v33.5ss.fasta
+>chr1:12224-12233(+)
+CCAGTAAGT
+>chr1:12718-12727(+)
+GAGGTGAGA
+>chr1:14406-14415(+)
+CTGCTCAGT
+>chr1:12054-12063(+)
+GAGCACTGG
+>chr1:12224-12233(+)
+```
+
+This file can now be fed into `score5.pl`:
+
+```
+maxentscan_score5.pl /home/hsher/gencode_coords/gencode.v33.5ss.fasta
+```
+
+
+However, I am not a big fan of the output format, because we lost the genomic coordinate, and will make downstream analysis hard:
+```
+CCAGTAAGT       9.09
+GAGGTGAGA       7.66
+CTGCTCAGT       -1.67
+GAGCACTGG       -13.87
+CCAGTAAGT       9.09
+CTTGTGAGT       7.15
+TAGGCAAGC       1.14
+GAAGTTCAC       -12.10
+GAAGAAATG       -7.27
+GTGAGCGTG       -27.71
+```
+
+Also, sequences with 'N' will crash the program :)
+```
+# this crashes maxentscan
+>chr4:9272911-9272920(+)
+AGATCNNNN
+```
+
+## So I filtered sequences with N, and did a bit of wrangling
+```
+# find unique 5ss sequences without N
+unique_5ss=df5.loc[~df5['seq'].str.contains('N'),'seq'].unique()
+
+# write to file
+import os
+with open('/home/hsher/gencode_coords/unique_5ss.txt', 'w') as f:
+    for seq in unique_5ss:
+        f.write(seq+'\n')
+```
+
+Then feed to maxentscan
+```
+maxentscan_score5.pl /home/hsher/gencode_coords/unique_5ss.txt > /home/hsher/gencode_coords/unique_5ss.maxentscore
+```
+
+read the file back to python pandas dataframe and map to the original dataframe with genome coordinates
+
+```
+score5 = pd.read_csv('/home/hsher/gencode_coords/unique_5ss.maxentscore', sep = '\t', index_col = 0, names= ['score'])
+df5['maxentscore']=df5['seq'].map(score5['score'])
+```
+
+# Final output
+
+|    | chrom   |   start |   end | strand   | transcript_id     | gene_id           | seq       |   maxentscore |
+|---:|:--------|--------:|------:|:---------|:------------------|:------------------|:----------|--------------:|
+|  0 | chr1    |   12224 | 12233 | +        | ENST00000456328.2 | ENSG00000223972.5 | CCAGTAAGT |          9.09 |
+|  1 | chr1    |   12718 | 12727 | +        | ENST00000456328.2 | ENSG00000223972.5 | GAGGTGAGA |          7.66 |
+|  2 | chr1    |   14406 | 14415 | +        | ENST00000456328.2 | ENSG00000223972.5 | CTGCTCAGT |         -1.67 |
+|  3 | chr1    |   12054 | 12063 | +        | ENST00000450305.2 | ENSG00000223972.5 | GAGCACTGG |        -13.87 |
+|  4 | chr1    |   12224 | 12233 | +        | ENST00000450305.2 | ENSG00000223972.5 | CCAGTAAGT |          9.09 |
