@@ -16,6 +16,8 @@ navigation:
    url: /index.html
  - title: About
    url: /about
+- title: Art
+   url: /art
  - title: Research
    url: /research
  - title: Category
@@ -26,7 +28,7 @@ social:
    github: algaebrown
    twitter: hermuba
    facebook: 
-   email: b101102109@tmu.edu.tw
+   email: charlene50135@gmail.com
 
 google_analytics: ""
 plugins:
